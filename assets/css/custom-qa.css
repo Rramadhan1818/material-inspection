@@ -1,0 +1,63 @@
+        body {
+            background-color: #ddd;
+        }
+
+        .container-custom {
+            max-width: 1250px;
+            padding-right: 5.5px;
+            padding-left: 5.5px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+        
+        table.dataTable.table-sm>thead>tr>th:not(.sorting_disabled) {
+            padding-right: 7px;
+        }
+        
+        button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+            border-radius: 2px;
+            color: white;
+            background-color: #007bff;
+            padding: 7px;
+        }
+
+        button.dt-button:hover:not(.disabled), div.dt-button:hover:not(.disabled), a.dt-button:hover:not(.disabled), input.dt-button:hover:not(.disabled) {
+            border: 1px solid #f8f8f8;
+            background-color: #343a40;
+        }
+        div.dataTables_wrapper div.dataTables_info {
+            padding-top: 0.85em;
+            padding-left: 1.1rem;
+            font-size:14px;
+        }
+
+        div.dt-buttons {
+            position: relative;
+            float: left;
+            margin-left: 1rem;
+        }
+
+        .error {
+            color: red ;
+        }
+
+        /* TAB PAN */
+        .nav-item .active {
+            color: #fff !important;
+            background-color: #0d6efd !important;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+        .nav-link {
+            display: block;
+            padding: 0.5rem 0.5rem;
+            font-size : 12px;
+        }
+        .nav-tabs .nav-link {
+                border: 1px solid rgba(0,0,0,.125);
+                color : grey;
+        }

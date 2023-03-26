@@ -1,0 +1,269 @@
+table, td, th {
+  
+  border:1px solid #dee2e6;
+  padding : 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.preloader {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: +100000;
+background-color:rgba(0, 0, 0, 0.65);
+}
+.preloader .loading {
+position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+font: 14px arial;
+}
+
+.style-default-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+.styled-table {
+    border-collapse: collapse;
+	responsive : true;
+    margin: 0px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+	border-spacing: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 0px;
+	vertical-align: middle;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+@media screen {
+  #printSection {
+      display: none;
+	  size: landscape;
+	  orientation:landscape;
+  }
+}
+@media print {
+  body * {
+    visibility:hidden;
+	orientation:landscape;
+	
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+  }
+  #printSection {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}
+ 
+.buttonAbsenFinish {
+  background-color: grey;
+  border: none;
+  color: white;
+   padding: 40px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;  
+  font-family: arial;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+ 
+ .buttonAbsenOUT {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 36px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  
+  font-weight: bold;
+  font-family: arial;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.buttonAbsenIN {
+  background-color: lime;
+  border: none;
+  color: white;
+  padding: 30px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.buttonRd {
+  background-color: #ff0000;
+   border: 1px solid black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+.buttonOR{
+  background-color: #e69500;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+.buttonGREY{
+  background-color: #b3b3b3;
+ border: 1px solid black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+.buttonGr {
+  background-color: #00ff00;
+   border: 1px solid black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+.buttonYL {
+  background-color: #ffff00;
+  border: none;
+  color: yellow;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+	border-radius: 50%;
+}
+.buttonhijau {
+  background-color: #248f24;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+border-radius: 2px;
+	border-radius: 2px;	
+}
+.buttonbirumuda {
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+border-radius: 2px;
+	border-radius: 2px;	
+}
+.buttonungu {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+border-radius: 2px;
+	border-radius: 2px;	
+}
+.buttonmerah {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: yes;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+  border-radius: 2px;
+	border-radius: 2px;	
+}
+.buttonBrown {
+  background-color: Brown;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: yes;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+  border-radius: 2px;
+	border-radius: 2px;	
+}
